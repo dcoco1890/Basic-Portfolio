@@ -1,0 +1,54 @@
+h1, h2, h3, h4, p, form, header, section, footer, article {
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer,p,form {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 960px;
+    
+    
+}
+
+header {
+    overflow: auto;
+    margin-bottom: 30px;
+    border-bottom-color: #cccccc;
+    border-top-color: #cccccc;
+    border-top-style: solid;
+    border-bottom-style:solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+    
+}
+h1 {
+    position: relative;
+    padding: 5px 15px;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+nav {
+    position: relative;
+    padding: 15px 0;
+    float: right;
+}
+
+footer {
+    background-color: #666666;
+}
+
+.main {
+    
+    
+}
