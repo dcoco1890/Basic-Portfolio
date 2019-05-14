@@ -14,15 +14,17 @@ footer,p,form {
 
 html {
     height: 100%;
+    
 }
 body {
     height: 100%;
     background-image:url("../images/intersection.png");
     /* This is how I got the background image to be below the header. It starts 60 px from 
     the top because the header is 60 px. With just repeat x it didnt fill the  page.*/
-    background-position: 0 60px;
+    background-position: 0px 60px;
     background-size: contain;
     background-repeat: repeat-x ;
+    
     
 }
 
@@ -50,8 +52,21 @@ h1:hover{
 }
 
 h2 {
+    
     padding: 10px 0 25px 0;
     color: #4aaaa5;
+}
+
+h4 {
+    color: #ffffff;
+    padding:10px 40px;
+    background-color: #4aaaa5;
+    max-width: 100%;
+    text-align: center;
+    margin-top:110px;
+}
+h4:hover {
+    background-color: hotpink;
 }
 
 nav {
@@ -64,8 +79,9 @@ nav {
 }
 
 section{
-    min-height: 1vh;
-   overflow: hidden;
+    max-height: 100%;
+    overflow: hidden;
+   
 }
 
 
@@ -114,8 +130,72 @@ p {
 .main {
     border: 2px solid #dddddd;
     max-width: 920px;
+    height: 70%;
     margin: 0 auto;
     background-color: #ffffff;
-    padding:20px;
+    padding:30px;
+}
+#ports {
+    padding:300px 450px;
+}
+    
+
+#one {
+    
+    background-color: #666666;
+    float: left;
+    height: 160px;
+    width: 230px;
+  
+    
+
+}
+#two {
+    
+    position: relative;
+    background-color: #666666;
+    right:250px;
+    float: right;
+    height: 160px;
+    width: 230px;
+   
+    
+
+}
+#three {
+    clear: both;
+    background-color: #666666;
+    float: left;
+    
+    height: 160px;
+    width: 230px;
+   
+
 }
 
+#four {
+    position: relative;
+    float: right;
+    background-color: #666666;
+    right: 250px;
+    height: 160px;
+    width: 230px;
+    
+   
+
+}
+#five {
+    clear: both;
+    background-color: #666666;
+    float: left;
+    height: 160px;
+    width: 230px;
+    
+
+}
+article {
+  
+    overflow: auto;
+    margin:0 10px 30px 10px;
+    
+}
