@@ -18,12 +18,12 @@ html {
 }
 body {
     height: 100%;
-    background-image:url("../images/intersection.png");
+    background-image:url("../images/pattern.png");
     /* This is how I got the background image to be below the header. It starts 60 px from 
     the top because the header is 60 px. With just repeat x it didnt fill the  page.*/
     background-position: 0px 60px;
-    background-size: contain;
-    background-repeat: repeat-x ;
+    background-size: cover;
+    background-repeat: repeat-x;
     
     
 }
