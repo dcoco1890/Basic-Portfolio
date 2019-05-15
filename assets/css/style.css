@@ -199,3 +199,37 @@ article {
     margin:0 10px 30px 10px;
     
 }
+label {
+    color: #666666;
+}
+
+#name {
+    width: 100%;
+    height: 2em;
+}
+
+#email {
+    width: 100%;
+    height: 2em;
+}
+#msg {
+    width: 100%;
+    height: 15em;
+    resize: none;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    
+    
+}
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px 35px;
+    border: none;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
