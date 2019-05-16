@@ -1,3 +1,4 @@
+/*This is a reset I made myself before we learned about resets in class*/
 h1, h2, h3, h4, p, form, header, section, footer, article,body {
     margin: 0;
     padding: 0;
@@ -130,7 +131,7 @@ p {
 
 .main {
     border: 2px solid #dddddd;
-    max-width: 920px;
+    max-width: 900px;
     height: 70%;
     margin: 0 auto;
     background-color: #ffffff;
